@@ -1,0 +1,44 @@
+body {
+  margin: 1 rem 5rem;
+}
+h1 {
+  filter: drop-shadow(2px 2px 1px #0f6a9e);
+}
+P,
+li {
+  font-size: 20px;
+}
+img {
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+figcaption {
+  color: rgb(0, 58, 66);
+}
+footer,
+p {
+  text-align: center;
+}
+#banner-short {
+  display: none;
+}
+.banner-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.img-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.top-places-div {
+  background-color: rgb(0, 58, 66);
+  border-radius: 1rem;
+}
+.tips-div {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+}
